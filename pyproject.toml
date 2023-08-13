@@ -17,6 +17,8 @@ emirates-fixtures = "emirates_fixtures:main"
 [tool.poetry.dependencies]
 python = "^3.11"
 selenium = "^4.11.2"
+google-api-python-client = "^2.96.0"
+google-auth-oauthlib = "^1.0.0"
 
 [tool.poetry.group.test.dependencies]
 pre-commit = "^3.0.0"

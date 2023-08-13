@@ -1,4 +1,8 @@
 
+# Google Credentials
+emirates_fixtures/credentials.json
+emirates_fixtures/token.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
