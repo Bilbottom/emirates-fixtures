@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "emirates-fixtures"
+version = "0.0.1"
+description = "A connection service between the Emirates fixtures and a Google calendar."
+authors = ["Bilbottom"]
+readme = "README.md"
+packages = [{include = "emirates_fixtures"}]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+emirates-fixtures = "emirates_fixtures:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.11.2"
+
+[tool.poetry.group.test.dependencies]
+pre-commit = "^3.0.0"
+pytest = "^7.0.0"
+pytest-cov = "^4.0.0"
+
+
+[tool.pytest.ini_options]
+addopts = "--cov=emirates_fixtures"
+testpaths = [
+    "tests",
+]
+
+[tool.isort]
+profile = "black"
