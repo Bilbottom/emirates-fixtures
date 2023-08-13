@@ -10,9 +10,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 
-EMIRATES_WEBSITE = (
-    "https://hospitality.arsenal.com/matchday-hospitality/arsenal-home-fixtures/"
-)
+from emirates_fixtures.constants import EMIRATES_WEBSITE
 
 
 def _from_friendly_date(friendly_date: str) -> datetime.datetime:

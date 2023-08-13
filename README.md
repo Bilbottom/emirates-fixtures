@@ -15,3 +15,11 @@
 # Emirates Fixtures Sync
 
 A connection service between the Emirates fixtures and a Google calendar.
+
+This project requires a `credentials.json` file from Google's API. You can get one from [here](https://developers.google.com/calendar/api/quickstart/python):
+
+- https://developers.google.com/calendar/api/quickstart/python#authorize_credentials_for_a_desktop_application
+
+Additionally, the API reference can be found [here](https://developers.google.com/calendar/api/v3/reference):
+
+- https://developers.google.com/calendar/api/v3/reference
